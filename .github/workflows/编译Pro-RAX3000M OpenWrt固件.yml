@@ -20,7 +20,7 @@ on:
     inputs:
       Tempoary_IP:
         description: '固件 IP 地址 [可选]'
-        default: ''
+        default: '192.168.3.1'
       ssh:
         description: 'SSH connection to Actions'
         required: false
